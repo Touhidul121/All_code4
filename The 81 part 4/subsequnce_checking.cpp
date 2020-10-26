@@ -1,0 +1,13 @@
+while(i<r.size()&&j<t.size())
+{
+    if(r[i]==t[j])
+    {
+        i++;
+    }
+    if(r.size()==i)
+    {
+        flag1++;
+        break;
+    }
+    j++;
+}
